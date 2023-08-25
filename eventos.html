@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="../components/header.js" type="text/javascript" defer></script>
+</head>
+<body>
+  <header-component></header-component>
+
+  <h1>Inscreva-se</h1>
+
+  <form>
+    <fieldset>
+      <label>
+        Evento
+        <select>
+           <option value="">-- Selecione --</option>
+          <option value="dog">Voe sem asas</option>
+          <option value="dog">Festa junina</option>
+          <option value="dog">Semana da tecnologia</option>
+        </select>
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Informações de Acesso</legend>
+    
+      <label>
+        Usuario
+        <input required type="text"/>
+      </label>
+      <br>
+      
+      <label>
+      Senha
+      <input type="text"/>
+      </label>
+  
+      <br>
+      <label>
+      Confirme a senha
+      <input type="password"/>
+      </label>
+    </fieldset>
+
+    <fieldset>
+      <legend>Informações Pessoais</legend>
+    
+      <label>
+        Nome Completo
+        <input type="text"/>
+      </label>
+      <br>
+      
+      <label>
+      Email
+      <input type="email"/>
+      </label>
+      <br>
+  
+      <label>
+      Celular
+      <input type="number"/>
+      (99) 99999-9999
+      </label>
+      <br>
+    <fieldset>
+      <legend>Sexo</legend>
+      <label>Masculino
+        <input type="radio" name="sexo_opt" value="masculino">
+      </label>
+      <label>Feminino
+        <input type="radio" name="sexo_opt" value="feminino">
+      </label>
+    </fieldset>
+
+       <label>
+      Data de Nascimento
+      <input type="datetime"/>
+      </label>
+      <br>
+      
+      <label>
+      Cor Favorita
+      <input type="color"/>
+      </label>
+      <br>
+
+      <label>
+      Perfil no Github
+      <input type="text"/>
+      </label>
+  </fieldset>
+  </form>
+  <button type="submit">Inscrever</button>
+  <button type="reset">Limpar</button>
+
+</body>
+</html>

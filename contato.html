@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <script src="../components/header.js" type="text/javascript" defer></script>
+</head>
+<body>
+    <header-component></header-component>
+  <h1>Mande uma mensagem</h1>
+
+  <form>
+    <ul>
+      <li>
+        <label>
+          Nome
+          <input type="text">
+        </label>
+      </li>
+      <br>
+      <li>
+        <label>
+          Email
+          <input type="email">
+        </label>
+      </li>
+      <br>
+      <li>
+        <label>
+          Telefone
+          <input type="text">
+          (99) 99999-9999
+        </label>
+      </li>
+      <br>
+      <li>
+        <label>
+          Assunto
+          <select>
+            <option value="">-- Selecione --</option>
+             <option value="reclamacao">Reclamação</option>
+            <option value="sugestao">Sugestão</option>
+          </select>
+        </label>
+      </li>
+      <br>
+
+      <li>
+        <label>
+          Mensagem
+          <textarea></textarea>
+        </label>
+      </li>
+      <br>
+      
+      <li>
+        <fieldset>
+          <legend>Opções de Resposta</legend>
+          <label>Email
+            <input type="radio" name="resposta_opt" value="email">  
+          </label>
+          
+      <label>Telefone
+        <input type="radio" name="resposta_opt" value="telefone">
+      </label>
+        </fieldset>
+      </li>
+
+      <li>
+        <button type="submit">Enviar</button>
+      </li>
+    </ul>
+  </form>
+</body>
+</html>
